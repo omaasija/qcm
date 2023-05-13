@@ -1,3 +1,8 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +31,7 @@
         font-size: 20px;
        
         background-color: black;
-        height: 4vw;
+        height: 5vw;
        
      
        
@@ -61,6 +66,13 @@
     font-size: 21px;
     margin-left: 55px;
 }
+span{
+color: #f73636;
+ 
+
+font-family: 'Satisfy', cursive;
+
+}
 .bigtext{
     margin-bottom: 4vw;
 font-family: 'Times New Roman', Times, serif;
@@ -69,7 +81,7 @@ h3{
     padding-left: 44px;
 
 font-size: 21px;
-    font-family: Merriweather,serif;}
+font-family: 'Satisfy', cursive; }
 
 .section{
     display: flex;
@@ -84,6 +96,7 @@ font-size: 21px;
     left: 27%;
     box-shadow: 6px 4px 7px #aaaaaa;
 }
+
 .right1 img{
     width: 21vw;
     height: 21vw;
