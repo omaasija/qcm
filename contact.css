@@ -188,3 +188,124 @@ font-family: 'Roboto Mono', monospace;
         border-radius: 5px;
         border: 1px solid gray;
       }
+
+  @import url('https://fonts.googleapis.com/css2?family=Comme:wght@300&family=Roboto+Mono:wght@300&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    /* background-color:rgb(4, 45, 74) ; */
+    background-color: rgb(79, 15, 15);
+    color: #f5f7f9;
+}
+.navbar{
+    position:sticky;
+    top:0px;
+    
+}
+.navlists {
+    
+        display: flex;
+        justify-content: space-around;
+        color: aliceblue;
+        font-size: 20px;
+       
+        background-color: black;
+        height: 5vw;
+       
+     
+       
+        align-items: center;
+      }
+
+.navlists li a{
+  color: rgb(245, 245, 246);
+  list-style: none;
+  text-decoration: none;
+  }
+
+.navlists li{
+    list-style: none;
+    
+}
+.navlists li a:hover{
+    color: rgb(28, 22, 22);
+    font-size: 21px;
+    background-color: rgb(234, 225, 225);
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10vw;
+    width: 32vw;
+    justify-content: center;
+    font-size: 20px;
+}
+/* .container{
+    background-color: rgb(189, 196, 201); */
+    /* height: 100vh;
+    width: 100vw; */
+
+.submitbtn {
+    color: black;
+    background-color: gray;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 20vh;
+}
+.submitbtn:hover{
+    color: #333332;
+    background-color: rgb(249, 249, 252);
+    transition: .3s
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 19px 0px;
+    font-family:link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ubuntu:wght@700&display=swap" rel="stylesheet"
+    ;
+    display:flex ;
+    justify-content: center;
+    color: #f5ecec;
+    position: relative;
+top: 21vh;
+    
+    }
+    .formcontainer{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        /* align-items: center; */
+        min-height: 63vh;
+        margin: 13vw;
+    }
+    .formcontent{
+        display: flex;
+        flex-direction: column;
+        width: 29vw; 
+        max-width: 63vw
+        
+    }
+    .rightcontent
+    {
+        font-family: 'Comme', sans-serif;
+font-family: 'Roboto Mono', monospace;
+    }
+    @media only screen and   (max-width:552px){
+        .formcontainer {display: flex;
+            flex-direction: column;
+            
+        }
+    }
+    label{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 3px;
+    }
+    #address {
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
